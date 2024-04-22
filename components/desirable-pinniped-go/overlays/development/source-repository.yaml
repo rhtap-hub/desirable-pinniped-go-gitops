@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: desirable-pinniped-go-repository
+spec:
+  url: https://github.com/rhtap-hub/desirable-pinniped-go
